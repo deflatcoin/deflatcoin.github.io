@@ -1,7 +1,7 @@
 function connect0x() {
   		    zeroExInstant.render(
 										{
-												orderSource: 'http://api-v2.ledgerdex.com/sra/v2',
+												orderSource: 'https://api-v2.ledgerdex.com/sra/v2',
 												additionalAssetMetaDataMap: {                                                
 												'0xf47261b0000000000000000000000000e1e0db951844e7fb727574d7daca68d1c5d1525b': {
                                                 assetProxyId: '0xf47261b0', 
