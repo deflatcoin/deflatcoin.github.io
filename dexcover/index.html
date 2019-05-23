@@ -44,6 +44,17 @@
     <link href="https://ipfs.io/ipfs/Qmc4HhctouyDXoXqVwEVZhuiwviYWTFF4HoRLK7zraCUwj/css/small.css" rel="stylesheet" media="only screen and (max-device-width: 480px)" />
     <title>AGAINST DEX | Decentralized Ethereum Token Exchange</title>
     <meta name="description" content="AGAINST DEX is a Delta decentralized Ethereum Token Exchange with the most ERC20 listings of any exchange." />
+    <style>
+    @media screen and (min-width: 980px) {
+      body {
+          height: 755px;
+          overflow:hidden; 
+      }
+      html {
+          height: 760px;
+      }
+    }
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-default navbar-fixed-top"> 
@@ -56,7 +67,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>  
-          <span id="apilabel">API/Config: </span>
+          <span id="apilabel"><img src="https://ipfs.io/ipfs/Qmc4HhctouyDXoXqVwEVZhuiwviYWTFF4HoRLK7zraCUwj/images/favicon.png"/>API</span>
           <select id="apiselect" onchange="selectAPI()">
             <option value="AGAINST" selected class="darkitem">AGAINST</option>
             <option value="DEFLAT" class="darkitem">DEFLAT</option>
@@ -159,15 +170,13 @@
     <div id="ledger"></div>
   </div>
 </div>
-<div class="row-container">
-<div id="infoSection">
-    <div id="volumeContainer">
+<div class="row-container" id="page-footer"><center>
+<a style="color: #00FF00;" href="https://github.com/deflatcoin/dexcover"><b>AGAINST DEX - GitHub</b></a>
+</center>
+<div id="infoSection" style="display:none;">
+    <div id="volumeContainer" style="display:none;">
             <div id="header-volume" class="row-header">volume</div>
             <div id="volume"></div>
-    </div>
-    <div id="aboutPageContainer">
-      <embed id="aboutPage" src="https://gateway.pinata.cloud/ipfs/QmPuDKnTcuMdNq2xaF5hZm42aScJp4j7QhSkZBQvHrUBAb">
-      </embed>
     </div>
 </div>    
 </div>
